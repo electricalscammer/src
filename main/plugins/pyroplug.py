@@ -133,7 +133,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 progress=progress_for_pyrogram,
                 progress_args=(
                     client,
-                    "**DOWNLOADING:**\n\n**Team SPY**",
+                    "**DOWNLOADING:**\n\n**Team Electric Hacker**",
                     edit,
                     time.time()
                 )
@@ -145,7 +145,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
             
             caption = str(file)
             if msg.caption is not None:
-                caption = "Extracted by Team SPY"
+                caption = "Extracted by Team Electric Hacker"
             if str(file).split(".")[-1] in ['mkv', 'mp4', 'webm', 'mpe4', 'mpeg']:
                 if str(file).split(".")[-1] in ['webm', 'mkv', 'mpe4', 'mpeg']:
                     path = str(file).split(".")[0] + ".mp4"
@@ -186,7 +186,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     progress=progress_for_pyrogram,
                     progress_args=(
                         client,
-                        '**UPLOADING:**\n**bot made by Mr. Invisible**',
+                        '**UPLOADING:**\n**bot made by Electric Hacker**',
                         upm,
                         time.time()
                     )
@@ -229,7 +229,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     progress=progress_for_pyrogram,
                     progress_args=(
                         client,
-                        '**UPLOADING:**\n\n**bot made Gagan**',
+                        '**UPLOADING:**\n\n**bot made Electric Hacker**',
                         upm,
                         time.time()
                     )
